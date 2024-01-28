@@ -1,0 +1,94 @@
+    /*
+  
+      Theme: Everforest Light
+      Author: @ehqo
+      License: MIT
+      Version: 1.0
+      Description: Everforest - a soft, nature-inspired color palette. Adapted from the Everforest VIM theme by @sainnhe.
+      
+      */
+
+    body {
+
+        background: #F7F4E2;
+        color: #5c6a72;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    main {
+        display: block;
+        max-width: 30em;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2em;
+        background: #FDFAEE;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 10%;
+    }
+
+    body h1,
+    body h2,
+    body h3,
+    body h4,
+    body h5,
+    body h6 {
+        color: #93b259;
+    }
+
+    a:link,
+    a:visited {
+        color: #93b259;
+        text-decoration-color: #93b259;
+        text-decoration: none;
+        border-bottom: 1.5px dotted #93b259;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration-color: #93b259;
+        text-decoration: none;
+        border-bottom: 2px solid #93b259;
+    }
+
+    #profile-picture {
+        border-radius: 10%;
+    }
+
+    #pronouns {
+        color: #a7c080;
+    }
+
+    #footer a:link,
+    #footer a:visited,
+    #footer a:hover,
+    #footer a:active {
+        color: #a7c080;
+    }
+
+    /* Color for profile items and icons */
+    .fa-li,
+    .fas,
+    .omg-icon,
+    .omg-icon path {
+        color: #93b259;
+        fill: #93b259;
+        stroke: #93b259;
+    }
+
+    .fa-plug {
+        color: #DFA000;
+    }
+
+    .fa-badge-check,
+    .omg-verified {
+        color: #3a94c5 !important;
+    }
+
+    .fa-briefcase {
+        color: #F79550;
+    }
+
+    .fa-location-dot {
+        color: #f85551;
+    }
